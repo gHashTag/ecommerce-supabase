@@ -1,0 +1,56 @@
+curl --request POST 'http://127.0.0.1:54321/functions/v1/create-user' \
+  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3bmtycWp4ZXl5ZnBvc2JmcGV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDUzOTE0NDQsImV4cCI6MjAyMDk2NzQ0NH0.ozlaM3HbwLZBOKkkGbfnvUopBByTfTsQt1FEt5CH4F4' \
+  --header 'Content-Type: application/json' \
+  --data '{  "first_name": "first_name", "last_name": "last_name", "email": "email", "username": "username", "is_bot": false, "language_code": "language_code",
+    "telegram_id": 1231233,
+    "email": "email",
+    "avatar": "avatar"}'
+
+    curl --request POST 'http://127.0.0.1:54321/functions/v1/create-user' \
+  --header 'Content-Type: application/json' \
+  --data '{  "first_name": "first_name", "last_name": "last_name", "email": "email", "username": "username", "is_bot": false, "language_code": "language_code",
+    "telegram_id": 1231233,
+    "email": "email",
+    "avatar": "avatar"}'
+
+
+    curl --request POST 'https://xwnkrqjxeyyfposbfpez.supabase.co/functions/v1/create-user' \
+  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3bmtycWp4ZXl5ZnBvc2JmcGV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDUzOTE0NDQsImV4cCI6MjAyMDk2NzQ0NH0.ozlaM3HbwLZBOKkkGbfnvUopBByTfTsQt1FEt5CH4F4' \
+  --header 'Content-Type: application/json' \
+  --data '{  "first_name": "andr", "last_name": "oooo", "email": "email@email.com", "username:": "andrew", "is_bot": false, "language_code": "code",
+    "telegram_id": 00000000,
+    "email": "email@mail.com",
+    "avatar": "st.avatar"}'
+
+
+curl --request POST 'https://xwnkrqjxeyyfposbfpez.supabase.co/functions/v1/tasks' \
+  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3bmtycWp4ZXl5ZnBvc2JmcGV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDUzOTE0NDQsImV4cCI6MjAyMDk2NzQ0NH0.ozlaM3HbwLZBOKkkGbfnvUopBByTfTsQt1FEt5CH4F4' \
+  --header 'Content-Type: application/json' \
+  --data '{ "uuid": "jh2g3kjh2g42424", "status": "done", "title": "task title", "description": "task description"}'
+
+
+curl --request POST 'https://xwnkrqjxeyyfposbfpez.supabase.co/functions/v1/create-tasks' \
+  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3bmtycWp4ZXl5ZnBvc2JmcGV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDUzOTE0NDQsImV4cCI6MjAyMDk2NzQ0NH0.ozlaM3HbwLZBOKkkGbfnvUopBByTfTsQt1FEt5CH4F4' \
+  --header 'Content-Type: application/json' \
+  --data '{ "user": "6d3961b1-7ae4-4a6f-81d7-084a6b3c4ce2", "status": "done", "title": "task title", "description": "task description"}'
+
+
+    curl -i --location --request POST 'https://xwnkrqjxeyyfposbfpez.supabase.co/functions/v1/create-tasks' \
+    --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3bmtycWp4ZXl5ZnBvc2JmcGV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDUzOTE0NDQsImV4cCI6MjAyMDk2NzQ0NH0.ozlaM3HbwLZBOKkkGbfnvUopBByTfTsQt1FEt5CH4F4' \
+    --header 'Content-Type: application/json' \
+    --data '{"data":["Никита Жилин: 🔄 Разобраться с интеграцией видео со ссылками в TLDV", "Дмитрий Васильев: 🔎 Исследовать возможность скачивания видео с Vimeo для преобразования в текст"]}'
+
+    curl -i --location --request POST 'https://xwnkrqjxeyyfposbfpez.supabase.co/functions/v1/create-tasks' \
+    --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3bmtycWp4ZXl5ZnBvc2JmcGV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDUzOTE0NDQsImV4cCI6MjAyMDk2NzQ0NH0.ozlaM3HbwLZBOKkkGbfnvUopBByTfTsQt1FEt5CH4F4' \
+    --header 'Content-Type: application/json' \
+    --data '{"data":["Никита Жилин: 🔄 Разобраться с интеграцией видео со ссылками в TLDV", "Дмитрий Васильев: 🔎 Исследовать возможность скачивания видео с Vimeo для преобразования в текст"]}'
+
+     curl -i --location --request POST 'http://127.0.0.1:54321/functions/v1/create-tasks' \
+    --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0' \
+    --header 'Content-Type: application/json' \
+    --data '{"data":["Никита Жилин: 🔄 Разобраться с интеграцией видео со ссылками в TLDV", "Дмитрий Васильев: 🔎 Исследовать возможность скачивания видео с Vimeo для преобразования в текст"]}'
+
+    curl -i --location --request POST 'https://xwnkrqjxeyyfposbfpez.supabase.co/functions/v1/create-tasks' \
+    --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh3bmtycWp4ZXl5ZnBvc2JmcGV6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDUzOTE0NDQsImV4cCI6MjAyMDk2NzQ0NH0.ozlaM3HbwLZBOKkkGbfnvUopBByTfTsQt1FEt5CH4F4' \
+    --header 'Content-Type: application/json' \
+    --data '{"data":["Никита Жилин: 🔄 Разобраться с интеграцией видео со ссылками в TLDV", "Дмитрий Васильев: 🔎 Исследовать возможность скачивания видео с Vimeo для преобразования в текст"]}'
